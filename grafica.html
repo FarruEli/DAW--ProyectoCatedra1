@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemón Bank</title>
+    <link rel="stylesheet" href="CSS/grafica.css">
+    <link rel="shortcut icon" href="img/icons8.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="dropdown">
+            <a class="btn btn-dark dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menú</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Historial de Transacciones</a></li>
+                <li><a class="dropdown-item" href="grafica.html">Gráfico</a></li>
+                <li><a class="dropdown-item" href="Index.html">Salir</a></li>
+            </ul>
+        </div>
+        <div class="container-fluid">
+            <center><img src="img/poke.png" alt=""width="250" height="150" class=""></center>
+            <center><p class="fw-bold texto-header d-inline-block align-text-top">BIENVENIDOS A POKEMÓN BANK</p></center>
+        </div>
+        
+    </header>
+    <div class="cuenta">
+        <div class="card">
+            <div class="card-header">Bienvenido/a</div>
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    <b><p>Juan Antonio Hernández Aquino</p></b>
+                    <footer class="blockquote-footer">Número de cuenta <cite title="Source Title">21571014</cite></footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+    <br>
+    <section class="content">
+       <center><h1>Gráfico de Transacciones</h1></center>
+        <canvas id="myChart"></canvas>
+    </section>
+    <footer>
+        <div class="container-fluid" id="pie">
+        <div class="container-fluid">
+            <div class="row" id="titulo-final">
+                <p class="footer-h5 fw-bold"> © COPYRIGHT 2022 | TODOS LOS DERECHOS RESERVADOS POKEMÓN BANK | UDB | TÉCNICO EN INGENIERÍA EN COMPUTACIÓN </p>
+            </div>
+        </div>
+    </footer>
+        <script     src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js" integrity="sha512-ElRFoEQdI5Ht6kZvyzXhYG9NqjtkmlkfYk0wr6wHxU9JEHakS7UJZNeml5ALk+8IKlU6jDgMabC3vkumRokgJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src=" js/main.js"></script>
+</body>
+</html>
